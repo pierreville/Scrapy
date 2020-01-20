@@ -83,8 +83,8 @@ class SquashGearSpider(scrapy.Spider):
         'http://www.squashgear.com/eyeracketsbags.html',
         'http://www.squashgear.com/salmingbags.html',
         'http://www.squashgear.com/adidasbags.html',
-        'http://www.squashgear.com/squashapparel.html',
-        'http://www.squashgear.com/salmingapparel.html',
+        #'http://www.squashgear.com/squashapparel.html',
+        #'http://www.squashgear.com/salmingapparel.html',
     ]
 
     def parse(self, response):
